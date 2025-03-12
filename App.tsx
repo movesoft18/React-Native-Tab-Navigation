@@ -205,7 +205,12 @@ export default function Example() {
             return(
               <Ionicons name={"pencil-outline"} size={size} color={color}/>
             );
-          }
+          },
+          tabBarBadge:"3",
+          tabBarBadgeStyle: {
+            color: 'black',
+            backgroundColor: 'yellow',
+          },
         }}
         />
 
